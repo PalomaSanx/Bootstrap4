@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seminario CSS</title>
+  <!--CSS BOOTSTRAP-->
+  <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"-->
+  <link rel="styleheet" href="css/misestilos.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+	<!--Navegación-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+		<a class="navbar-brand" href="/">
+			<img src="img/logo.png" alt="TySW" style="width: 15%">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav ml-auto">
+			<a id="1" class="nav-item nav-link" href="#">Información</a>
+			<a class="nav-item nav-link active" href="#">Teoría<span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="#">Prácticas</a>
+			<a class="nav-item nav-link" href="#">Documentación</a>
+			<a class="nav-item nav-link" href="#">Bibliografía</a>
+		  </div>
+		</div>
+		</div>
+      </nav>
+      
+      <!--tarjetas (contenido)-->
+      <!--Entrada-->
+    <div class="jumbotronp text-center">
+      <h1>Tecnologías y sistemas web</h1>
+      <p>Aquí podrás encontrar contenido teórico de la asignatura.</p> 
+    </div>
+      <!--contenido-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 tex">
+          <h3>Introducción</h3>
+          <p>Objetivo de la asignatura, historia de Internet, organismos de normalización y arquitectura OSI.</p>
+          <button type="button" class="btn btn-primary">Acceder</button>
+        </div>
+        <div class="col-sm-4">
+          <h3>Protocolos</h3>
+          <p>Aquí podrás encontrar protocolos de red y transporte,IP, protocolo TCP, UDP, ICMP, RIP, OSPF, BOOTP, ...</p>
+          <p>protocolos a nivel de aplicación, SNMP, FTP, TELNET, SSH,...</p>
+          <button type="button" class="btn btn-primary">Acceder</button>
+        </div>
+        <div class="col-sm-4">
+          <h3>HTML</h3>        
+          <p>Concepto de hipertexto, html y la red de internet...</p>
+          <p>Documentos HTML, herramientas de edición de documentos HTML...</p>
+          <button type="button" class="btn btn-primary">Acceder</button>
+        </div>
+      </div>
+    </div>   
+</body>
+</html>
+
